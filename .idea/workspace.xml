@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c59cfed2-f1cf-4ec7-8f58-83e073d94159" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/dao/StorehouseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-admin/src/test/java/com/linxb/wms/StorehouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-common/src/test/java/MPGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clean.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/package.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/若依环境使用手册.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ry.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ry.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/quartz.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/wms_20231130.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/WmsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/WmsServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/common/CaptchaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/common/CommonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/monitor/CacheController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/monitor/ServerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/monitor/SysLogininforController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/monitor/SysOperlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/monitor/SysUserOnlineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysDeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysDictDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysDictTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysIndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysNoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysPostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysRegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/system/SysUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/controller/tool/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/wms/web/core/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/resources/META-INF/spring-devtools.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/resources/application-druid.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wms-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/Anonymous.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/DataScope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/Excel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/Excels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/RateLimiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/RepeatSubmit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/annotation/Sensitive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/config/WmsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/config/serializer/SensitiveJsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/constant/CacheConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/constant/GenConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/constant/HttpStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/constant/ScheduleConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/constant/UserConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/AjaxResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/TreeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/TreeSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/entity/SysDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/entity/SysDictData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/entity/SysDictType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/entity/SysMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/entity/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/entity/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/model/LoginBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/model/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/domain/model/RegisterBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/page/PageDomain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/page/TableDataInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/page/TableSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/redis/RedisCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/text/CharsetKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/text/Convert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/core/text/StrFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/enums/BusinessStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/enums/BusinessType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/enums/DataSourceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/enums/DesensitizedType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/enums/HttpMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/enums/LimitType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/enums/OperatorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/enums/UserStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/DemoModeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/GlobalException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/ServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/UtilException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/base/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/file/FileException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/file/FileNameLengthLimitExceededException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/file/FileSizeLimitExceededException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/file/FileUploadException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/file/InvalidExtensionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/job/TaskException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/user/BlackListException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/user/CaptchaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/user/CaptchaExpireException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/user/UserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/user/UserNotExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/user/UserPasswordNotMatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/exception/user/UserPasswordRetryLimitExceedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/filter/PropertyPreExcludeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/filter/RepeatableFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/filter/RepeatedlyRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/filter/XssFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/filter/XssHttpServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/Arith.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/DesensitizedUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/DictUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/ExceptionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/LogUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/MessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/PageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/SecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/ServletUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/Threads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/bean/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/bean/BeanValidators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/file/FileTypeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/file/FileUploadUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/file/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/file/ImageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/file/MimeTypeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/html/EscapeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/html/HTMLFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/http/HttpHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/http/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/ip/AddressUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/ip/IpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/poi/ExcelHandlerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/poi/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/reflect/ReflectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/sign/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/sign/Md5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/spring/SpringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/sql/SqlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/uuid/IdUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/uuid/Seq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/utils/uuid/UUID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/xss/Xss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-common/src/main/java/com/wms/common/xss/XssValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/aspectj/DataScopeAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/aspectj/DataSourceAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/aspectj/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/aspectj/RateLimiterAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/CaptchaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/FastJson2JsonRedisSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/I18nConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/KaptchaTextCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/ResourcesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/ServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/ThreadPoolConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/properties/DruidProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/config/properties/PermitAllUrlProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/datasource/DynamicDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/datasource/DynamicDataSourceContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/interceptor/RepeatSubmitInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/interceptor/impl/SameUrlDataInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/manager/AsyncManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/manager/ShutdownManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/manager/factory/AsyncFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/security/context/AuthenticationContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/security/context/PermissionContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/security/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/security/handle/AuthenticationEntryPointImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/security/handle/LogoutSuccessHandlerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/domain/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/domain/server/Cpu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/domain/server/Jvm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/domain/server/Mem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/domain/server/Sys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/domain/server/SysFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/service/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/service/SysLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/service/SysPasswordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/service/SysPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/service/SysRegisterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/service/TokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-framework/src/main/java/com/wms/framework/web/service/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/config/GenConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/controller/GenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/domain/GenTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/domain/GenTableColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/mapper/GenTableColumnMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/mapper/GenTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/service/GenTableColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/service/GenTableServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/service/IGenTableColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/service/IGenTableService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/util/GenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/util/VelocityInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/java/com/wms/generator/util/VelocityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/generator.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/mapper/generator/GenTableColumnMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/mapper/generator/GenTableMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/java/controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/java/domain.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/java/mapper.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/java/service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/java/serviceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/java/sub-domain.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/js/api.js.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/sql/sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/vue/index-tree.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/vue/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/vue/v3/index-tree.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/vue/v3/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-generator/src/main/resources/vm/xml/mapper.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/config/ScheduleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/controller/SysJobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/controller/SysJobLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/domain/SysJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/domain/SysJobLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/mapper/SysJobLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/mapper/SysJobMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/service/ISysJobLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/service/ISysJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/service/impl/SysJobLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/service/impl/SysJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/task/RyTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/util/AbstractQuartzJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/util/CronUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/util/JobInvokeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/util/QuartzDisallowConcurrentExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/util/QuartzJobExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/java/com/wms/quartz/util/ScheduleUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/resources/mapper/quartz/SysJobLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-quartz/src/main/resources/mapper/quartz/SysJobMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysLogininfor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysNotice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysOperLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysRoleDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysRoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysUserOnline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysUserPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/vo/MetaVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/domain/vo/RouterVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysDeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysDictDataMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysDictTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysLogininforMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysNoticeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysOperLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysPostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysRoleDeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysRoleMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysUserPostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/mapper/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysDeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysDictDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysDictTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysLogininforService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysNoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysOperLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysPostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysUserOnlineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/ISysUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysDeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysDictDataServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysDictTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysLogininforServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysMenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysNoticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysOperLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysPostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysUserOnlineServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/java/com/wms/system/service/impl/SysUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysConfigMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysDictDataMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysDictTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysLogininforMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysNoticeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysOperLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysRoleDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysRoleMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysUserPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-system/src/main/resources/mapper/system/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/.env.staging" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/bin/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/bin/package.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/bin/run-web.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/public/html/ie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/monitor/cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/monitor/job.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/monitor/jobLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/monitor/logininfor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/monitor/online.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/monitor/operlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/monitor/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/dept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/dict/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/dict/type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/notice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/role.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/system/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/api/tool/gen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/401_images/401.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/404_images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/404_images/404_cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/404.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/bug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/build.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/cascader.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/checkbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/component.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/dashboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/date-range.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/date.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/dict.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/documentation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/drag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/druid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/education.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/example.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/excel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/exit-fullscreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/eye-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/form.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/fullscreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/guide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/input.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/international.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/job.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/language.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/log.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/logininfor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/message.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/money.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/monitor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/nested.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/number.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/online.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/password.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/pdf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/people.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/peoples.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/post.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/qq.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/question.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/radio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/rate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/redis-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/redis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/row.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/select.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/server.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/shopping.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/size.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/skill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/slider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/swagger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/switch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/system.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/table.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/textarea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/theme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/time-range.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/tool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/tree-table.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/tree.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/validCode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/wechat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svg/zip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/icons/svgo.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/images/dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/images/light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/images/login-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/images/pay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/images/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/btn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/element-ui.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/element-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/ruoyi.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/assets/styles/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Breadcrumb/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/day.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/hour.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/min.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/month.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/result.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/second.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/week.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Crontab/year.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/DictData/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/DictTag/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Editor/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/FileUpload/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Hamburger/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/HeaderSearch/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/IconSelect/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/IconSelect/requireIcons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/ImagePreview/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/ImageUpload/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Pagination/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/PanThumb/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/ParentView/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/RightPanel/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/RightToolbar/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/RuoYi/Doc/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/RuoYi/Git/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/Screenfull/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/SizeSelect/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/SvgIcon/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/ThemePicker/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/TopNav/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/components/iFrame/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/directive/dialog/drag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/directive/dialog/dragHeight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/directive/dialog/dragWidth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/directive/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/directive/module/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/directive/permission/hasPermi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/directive/permission/hasRole.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/AppMain.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/IframeToggle/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/InnerLink/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/Navbar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/Settings/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/Sidebar/Item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/Sidebar/Link.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/Sidebar/Logo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/Sidebar/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/TagsView/ScrollPane.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/TagsView/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/layout/mixin/ResizeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/plugins/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/plugins/cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/plugins/download.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/plugins/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/plugins/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/plugins/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/store/getters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/store/modules/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/store/modules/dict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/store/modules/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/store/modules/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/store/modules/tagsView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/store/modules/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/dict/Dict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/dict/DictConverter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/dict/DictData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/dict/DictMeta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/dict/DictOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/dict/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/errorCode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/generator/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/generator/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/generator/drawingDefault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/generator/html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/generator/icon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/generator/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/generator/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/jsencrypt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/ruoyi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/scroll-to.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/utils/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/dashboard/BarChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/dashboard/LineChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/dashboard/PanelGroup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/dashboard/PieChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/dashboard/RaddarChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/dashboard/mixins/resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/error/401.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/error/404.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/index_v1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/cache/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/cache/list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/druid/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/job/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/job/log.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/logininfor/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/online/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/operlog/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/monitor/server/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/redirect.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/register.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/config/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/dept/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/dict/data.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/dict/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/menu/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/notice/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/post/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/role/authUser.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/role/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/role/selectUser.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/user/authRole.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/user/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/user/profile/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/user/profile/resetPwd.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/user/profile/userAvatar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/system/user/profile/userInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/build/CodeTypeDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/build/DraggableItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/build/IconsDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/build/RightPanel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/build/TreeNodeDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/build/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/gen/basicInfoForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/gen/createTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/gen/editTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/gen/genInfoForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/gen/importTable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/gen/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/src/views/tool/swagger/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-ui/vue.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hSXRU9uuZplg7HMiWsIdzHxHP8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MPGenerator.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JUnit.StorehouseTest.addTest.executor": "Run",
+    "JUnit.StorehouseTest.selectTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\code\java\wms\wms-admin\src\main\resources\mapper" />
+      <recent name="C:\Workspace\code\java\wms\wms-admin\src\main\resources" />
+      <recent name="C:\Workspace\code\java\wms\wms-common\src\main\resources\mapper\basis" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StorehouseTest.addTest">
+    <configuration name="MPGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MPGenerator" />
+      <module name="wms-common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WmsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linxb.wms.WmsApplication" />
+      <module name="wms-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linxb.wms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorehouseTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wms-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linxb.wms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linxb.wms" />
+      <option name="MAIN_CLASS_NAME" value="com.linxb.wms.StorehouseTest" />
+      <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorehouseTest.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wms-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linxb.wms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linxb.wms" />
+      <option name="MAIN_CLASS_NAME" value="com.linxb.wms.StorehouseTest" />
+      <option name="METHOD_NAME" value="selectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="wms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="wms" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StorehouseTest.addTest" />
+        <item itemvalue="JUnit.StorehouseTest.selectTest" />
+        <item itemvalue="Application.MPGenerator" />
+        <item itemvalue="Application.WmsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c59cfed2-f1cf-4ec7-8f58-83e073d94159" name="Changes" comment="" />
+      <created>1717588445751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717588445751</updated>
+      <workItem from="1717588446897" duration="2625000" />
+      <workItem from="1717591186523" duration="5048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
