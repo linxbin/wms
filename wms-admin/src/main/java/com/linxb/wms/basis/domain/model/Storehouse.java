@@ -1,14 +1,14 @@
 package com.linxb.wms.basis.domain.model;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Date;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,8 +20,8 @@ import lombok.Setter;
  * @author linxb
  * @since 2024-06-05
  */
-@Getter
-@Setter
+@Data
+@EqualsAndHashCode(callSuper = false)
 @TableName("storehouse")
 public class Storehouse implements Serializable {
 
@@ -45,9 +45,9 @@ public class Storehouse implements Serializable {
     @TableField("note")
     private String note;
 
-    @TableField("create_time")
+    @TableField(value = "create_time", fill = FieldFill.INSERT)
     private Date createTime;
 
-    @TableField("update_time")
+    @TableField(value = "update_time", fill = FieldFill.INSERT_UPDATE)
     private Date updateTime;
 }
