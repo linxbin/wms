@@ -5,9 +5,9 @@ import cn.hutool.core.collection.CollectionUtil;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.linxb.wms.basis.dao.StorehouseDao;
 import com.linxb.wms.basis.domain.model.Storehouse;
-import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseAddRequest;
-import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseModifyRequest;
-import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseQueryRequest;
+import com.linxb.wms.basis.domain.vo.request.StorehouseAddRequest;
+import com.linxb.wms.basis.domain.vo.request.StorehouseModifyRequest;
+import com.linxb.wms.basis.domain.vo.request.StorehouseQueryRequest;
 import com.linxb.wms.basis.service.IStorehouseService;
 import com.linxb.wms.common.utils.AssertUtil;
 import com.linxb.wms.common.vo.request.IdRequest;
@@ -44,16 +44,14 @@ public class StorehouseServiceImpl implements IStorehouseService {
     @Override
     public void modify(StorehouseModifyRequest req) {
         Storehouse storehouse = storehouseDao.getById(req.getId());
-        AssertUtil.isNotEmpty(storehouse, "仓库不存在");
-
-        AssertUtil.isFalse(storehouseDao.existsByName(req.getName(), storehouse.getId()), "仓库名称已存在");
         AssertUtil.isFalse(storehouseDao.existsByNumber(req.getNumber(), storehouse.getId()), "仓库编号已存在");
-
+        AssertUtil.isFalse(storehouseDao.existsByName(req.getName(), storehouse.getId()), "仓库名称已存在");
+        AssertUtil.isNotEmpty(storehouse, "仓库不存在");
         storehouse.setName(req.getName());
         storehouse.setNumber(req.getNumber());
         storehouse.setVolume(req.getVolume());
         storehouse.setNote(req.getNote());
-        storehouseDao.updateById(storehouse);
+        AssertUtil.isTrue(storehouseDao.updateById(storehouse), "更新仓库失败");
     }
 
     @Override

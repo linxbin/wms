@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.linxb.wms.basis.domain.model.Storehouse;
-import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseQueryRequest;
+import com.linxb.wms.basis.domain.vo.request.StorehouseQueryRequest;
 import com.linxb.wms.basis.mapper.StorehouseMapper;
 import org.springframework.stereotype.Service;
 
@@ -36,5 +36,9 @@ public class StorehouseDao extends ServiceImpl<StorehouseMapper, Storehouse> {
         return lambdaQuery().eq(request.getName() != null, Storehouse::getName, request.getName())
                 .eq(request.getNumber() != null, Storehouse::getNumber, request.getNumber())
                 .page(page);
+    }
+
+    public boolean existsById(Long storehouseId) {
+        return lambdaQuery().eq(Storehouse::getId, storehouseId).exists();
     }
 }

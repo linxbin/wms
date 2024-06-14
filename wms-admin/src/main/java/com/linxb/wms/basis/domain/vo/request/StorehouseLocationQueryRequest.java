@@ -1,4 +1,4 @@
-package com.linxb.wms.basis.domain.vo.request.storehouse;
+package com.linxb.wms.basis.domain.vo.request;
 
 import com.linxb.wms.common.vo.request.PageBaseRequest;
 import io.swagger.annotations.ApiModelProperty;
@@ -12,7 +12,13 @@ import javax.validation.constraints.Size;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class StorehouseQueryRequest extends PageBaseRequest {
+public class StorehouseLocationQueryRequest extends PageBaseRequest {
+
+    @ApiModelProperty("仓库ID")
+    private Long storehouseId;
+
+    @ApiModelProperty("仓库库区ID")
+    private Long storehouseAreaId;
 
     @Size(max = 40)
     @Min(0)

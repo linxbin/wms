@@ -1,4 +1,4 @@
-package com.linxb.wms.basis.domain.vo.request.storehouse;
+package com.linxb.wms.basis.domain.vo.request;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -14,7 +14,19 @@ import java.math.BigDecimal;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class StorehouseAddRequest {
+public class StorehouseLocationModifyRequest {
+
+    @NotNull
+    @ApiModelProperty("库区ID")
+    private Long id;
+
+    @NotNull
+    @ApiModelProperty("仓库ID")
+    private Long storehouseId;
+
+    @NotNull
+    @ApiModelProperty("库区ID")
+    private Long storehouseAreaId;
 
     @NotNull
     @Size(max = 40)

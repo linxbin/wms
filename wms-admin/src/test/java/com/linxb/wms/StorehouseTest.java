@@ -1,9 +1,9 @@
 package com.linxb.wms;
 
 import com.linxb.wms.basis.domain.model.Storehouse;
-import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseAddRequest;
-import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseModifyRequest;
-import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseQueryRequest;
+import com.linxb.wms.basis.domain.vo.request.StorehouseAddRequest;
+import com.linxb.wms.basis.domain.vo.request.StorehouseModifyRequest;
+import com.linxb.wms.basis.domain.vo.request.StorehouseQueryRequest;
 import com.linxb.wms.basis.service.IStorehouseService;
 import com.linxb.wms.common.vo.request.IdRequest;
 import lombok.extern.slf4j.Slf4j;
