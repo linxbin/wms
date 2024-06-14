@@ -1,6 +1,7 @@
 package com.linxb.wms.basis.service.impl;
 
 
+import cn.hutool.core.collection.CollectionUtil;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.linxb.wms.basis.dao.StorehouseDao;
 import com.linxb.wms.basis.domain.model.Storehouse;
@@ -9,10 +10,10 @@ import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseModifyRequest;
 import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseQueryRequest;
 import com.linxb.wms.basis.service.IStorehouseService;
 import com.linxb.wms.common.utils.AssertUtil;
+import com.linxb.wms.common.vo.request.IdRequest;
+import com.linxb.wms.common.vo.response.PageBaseResp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * <p>
@@ -61,8 +62,18 @@ public class StorehouseServiceImpl implements IStorehouseService {
     }
 
     @Override
-    public IPage<Storehouse> getList(StorehouseQueryRequest request) {
+    public PageBaseResp<Storehouse> getList(StorehouseQueryRequest request) {
         IPage<Storehouse> list = storehouseDao.getList(request, request.plusPage());
-        return list;
+        if (CollectionUtil.isEmpty(list.getRecords())) {
+            return PageBaseResp.empty();
+        }
+
+        //返回消息
+        return PageBaseResp.init(list, list.getRecords());
+    }
+
+    @Override
+    public void delete(IdRequest request) {
+       AssertUtil.isTrue(storehouseDao.removeById(request.getId()), "删除仓库失败");
     }
 }

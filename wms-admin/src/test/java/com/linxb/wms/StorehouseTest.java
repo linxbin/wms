@@ -3,7 +3,9 @@ package com.linxb.wms;
 import com.linxb.wms.basis.domain.model.Storehouse;
 import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseAddRequest;
 import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseModifyRequest;
+import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseQueryRequest;
 import com.linxb.wms.basis.service.IStorehouseService;
+import com.linxb.wms.common.vo.request.IdRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -48,5 +50,20 @@ public class StorehouseTest {
     public void detailTest() {
         Storehouse detail = storehouseService.detail(1L);
         System.out.println(detail.toString());
+    }
+
+    @Test
+    public void pageListTest() {
+        StorehouseQueryRequest storehouseQueryRequest = new StorehouseQueryRequest();
+        storehouseQueryRequest.setPageNo(1);
+        storehouseQueryRequest.setPageSize(10);
+        storehouseService.getList(storehouseQueryRequest);
+    }
+
+    @Test
+    public void deleteTest() {
+        IdRequest idRequest = new IdRequest();
+        idRequest.setId(1);
+        storehouseService.delete(idRequest);
     }
 }

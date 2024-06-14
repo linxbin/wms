@@ -33,8 +33,8 @@ public class StorehouseDao extends ServiceImpl<StorehouseMapper, Storehouse> {
     }
 
     public IPage<Storehouse> getList(StorehouseQueryRequest request, Page page) {
-        return lambdaQuery().eq(! request.getName().trim().isEmpty(), Storehouse::getName, request.getName())
-                .eq(! request.getNumber().trim().isEmpty(), Storehouse::getNumber, request.getNumber())
+        return lambdaQuery().eq(request.getName() != null, Storehouse::getName, request.getName())
+                .eq(request.getNumber() != null, Storehouse::getNumber, request.getNumber())
                 .page(page);
     }
 }

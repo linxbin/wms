@@ -4,32 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c59cfed2-f1cf-4ec7-8f58-83e073d94159" name="Changes" comment="Init Project">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/domain/vo/request/storehouse/StorehouseAddReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/domain/vo/request/storehouse/StorehouseModifyReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/config/DataConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/exception/BusinessErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/exception/CommonErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/exception/ErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/exception/FrequencyControlException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/exception/GroupErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/exception/HttpErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/utils/AssertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/vo/request/IdReqVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wms-common/src/main/java/com/linxb/wms/common/vo/response/ApiResult.java" afterDir="false" />
+    <list default="true" id="c59cfed2-f1cf-4ec7-8f58-83e073d94159" name="Changes" comment="storehouse curd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/controller/StorehouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/controller/StorehouseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/dao/StorehouseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/dao/StorehouseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/domain/model/Storehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/domain/model/Storehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/domain/vo/request/storehouse/StorehouseQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/domain/vo/request/storehouse/StorehouseQueryRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/service/IStorehouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/service/IStorehouseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/service/impl/StorehouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/main/java/com/linxb/wms/basis/service/impl/StorehouseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wms-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wms-admin/src/test/java/com/linxb/wms/StorehouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wms-admin/src/test/java/com/linxb/wms/StorehouseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wms-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wms-common/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +42,11 @@
     "Application.MPGenerator.executor": "Run",
     "Application.Main.executor": "Run",
     "JUnit.StorehouseTest.addTest.executor": "Run",
+    "JUnit.StorehouseTest.deleteTest.executor": "Debug",
     "JUnit.StorehouseTest.detailTest.executor": "Run",
     "JUnit.StorehouseTest.executor": "Run",
     "JUnit.StorehouseTest.modifyTest.executor": "Run",
+    "JUnit.StorehouseTest.pageListTest.executor": "Run",
     "JUnit.StorehouseTest.selectTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -99,13 +83,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.linxb.wms.common.vo.response" />
       <recent name="com.linxb.wms.common.vo.request" />
       <recent name="com.linxb.wms.basis.domain.vo.request.storehouse" />
       <recent name="com.linxb.wms.common.config" />
       <recent name="com.linxb.wms.common.domain.vo.response" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StorehouseTest.detailTest">
+  <component name="RunManager" selected="JUnit.StorehouseTest.deleteTest">
     <configuration name="StorehouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wms-admin" />
       <extension name="coverage">
@@ -121,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StorehouseTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StorehouseTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wms-admin" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +116,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.linxb.wms" />
       <option name="MAIN_CLASS_NAME" value="com.linxb.wms.StorehouseTest" />
-      <option name="METHOD_NAME" value="addTest" />
+      <option name="METHOD_NAME" value="deleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,26 +154,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="StorehouseTest.pageListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wms-admin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linxb.wms.WmsApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.linxb.wms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.linxb.wms" />
+      <option name="MAIN_CLASS_NAME" value="com.linxb.wms.StorehouseTest" />
+      <option name="METHOD_NAME" value="pageListTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StorehouseTest.deleteTest" />
+        <item itemvalue="JUnit.StorehouseTest.pageListTest" />
         <item itemvalue="JUnit.StorehouseTest.detailTest" />
         <item itemvalue="JUnit.StorehouseTest.modifyTest" />
         <item itemvalue="JUnit.StorehouseTest" />
-        <item itemvalue="JUnit.StorehouseTest.addTest" />
-        <item itemvalue="Spring Boot.WmsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -210,11 +198,35 @@
       <updated>1717588445751</updated>
       <workItem from="1717588446897" duration="2625000" />
       <workItem from="1717591186523" duration="5048000" />
-      <workItem from="1718245262728" duration="7955000" />
+      <workItem from="1718245262728" duration="19055000" />
     </task>
+    <task id="LOCAL-00001" summary="storehouse curd">
+      <option name="closed" value="true" />
+      <created>1718272539340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718272539340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="storehouse curd" />
+    <option name="LAST_COMMIT_MESSAGE" value="storehouse curd" />
   </component>
 </project>

@@ -1,6 +1,5 @@
 package com.linxb.wms.basis.controller;
 
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.linxb.wms.basis.domain.model.Storehouse;
 import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseAddRequest;
 import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseModifyRequest;
@@ -14,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.List;
 
 /**
  * <p>
@@ -54,9 +52,16 @@ public class StorehouseController {
 
     @GetMapping("/list")
     @ApiOperation("仓库列表")
-    public ApiResult<PageBaseResp<Storehouse>> getMsgPage(@Valid StorehouseQueryRequest request) {
-        IPage<Storehouse> list = storehouseService.getList(request);
+    public ApiResult<PageBaseResp<Storehouse>> getList(@Valid StorehouseQueryRequest request) {
+        PageBaseResp<Storehouse> list = storehouseService.getList(request);
+        return ApiResult.success(list);
     }
 
+    @DeleteMapping("/delete")
+    @ApiOperation("删除仓库")
+    public ApiResult<Void> delete(@Valid IdRequest request) {
+        storehouseService.delete(request);
+        return ApiResult.success();
+    }
 
 }

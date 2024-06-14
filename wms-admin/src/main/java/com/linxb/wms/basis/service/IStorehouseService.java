@@ -1,15 +1,13 @@
 package com.linxb.wms.basis.service;
 
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.linxb.wms.basis.domain.model.Storehouse;
 import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseAddRequest;
 import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseModifyRequest;
 import com.linxb.wms.basis.domain.vo.request.storehouse.StorehouseQueryRequest;
-
-import java.util.List;
+import com.linxb.wms.common.vo.request.IdRequest;
+import com.linxb.wms.common.vo.response.PageBaseResp;
 
 /**
- * <p>
  *  服务类
  * </p>
  *
@@ -24,5 +22,7 @@ public interface IStorehouseService {
 
     Storehouse detail(Long id);
 
-    IPage<Storehouse> getList(StorehouseQueryRequest request);
+    PageBaseResp<Storehouse> getList(StorehouseQueryRequest request);
+
+    void delete(IdRequest request);
 }

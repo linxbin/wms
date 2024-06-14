@@ -2,14 +2,12 @@ package com.linxb.wms.basis.domain.vo.request.storehouse;
 
 import com.linxb.wms.common.vo.request.PageBaseRequest;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 @Builder
 @AllArgsConstructor
